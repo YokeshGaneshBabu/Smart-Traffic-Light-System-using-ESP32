@@ -35,11 +35,12 @@ Smart-Traffic-Light-System-ESP32/
 │   └── SmartTrafficLight.ino          # Main Arduino/ESP32 code
 │
 ├── images/                            # Reference images for documentation
-│   ├── circuit_diagram.png             # Circuit wiring diagram
-│   ├── prototype_setup.jpg             # Physical prototype photo
-│   └── output_serial_log.png           # Screenshot of serial monitor output
+│   ├── circuit_diagram.png            # Circuit wiring diagram
+│   ├── prototype_setup.jpg            # Physical prototype photo
+│   └── output_serial_log.png          # Screenshot of serial monitor output
 │
 └── README.md                          # Project documentation (this file)
+
 
 ---
 

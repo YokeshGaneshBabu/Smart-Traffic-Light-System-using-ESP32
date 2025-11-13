@@ -63,11 +63,6 @@ The main functions:
 
 ---
 
-## 📸 Prototype
-*(Add your circuit and demo images here)*
-
----
-
 ## 🧑‍💻 Author
 **Yokesh Ganesh Babu**  
 B.Tech VLSI Design and Technology  

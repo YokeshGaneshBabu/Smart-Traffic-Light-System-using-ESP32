@@ -85,4 +85,4 @@ B.Tech VLSI Design and Technology
 ---
 
 ## 🪪 License
-This project is open-source under the MIT License.
+This project is licensed under the [MIT License](LICENSE).

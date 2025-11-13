@@ -40,7 +40,12 @@ A real-time smart traffic control system that dynamically manages traffic lights
    - Emergency switch activates a priority sequence (Red → Yellow → Green).
 
 ---
-
+### 🧠 Flowchart
+![Flowchart](images/flowchart.png)
+---
+### 🛠️ Physical Prototype Setup
+![Prototype Setup](images/prototype_setup.jpg)
+---
 ## 🧾 Code Overview
 The main functions:
 - `handleEmergencySequence()` – Controls emergency override sequence.

@@ -41,7 +41,7 @@ A real-time smart traffic control system that dynamically manages traffic lights
 
 ---
 ### 🧠 Flowchart
-![Flowchart](images/flowchart.jpeg)
+![Flowchart](flowchart.jpeg)
 ---
 ### 🛠️ Physical Prototype Setup
 ![Prototype Setup](prototype_setup.jpeg)

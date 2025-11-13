@@ -30,9 +30,54 @@ A real-time smart traffic control system that dynamically manages traffic lights
 
 ## 📂 Project Structure
 Smart-Traffic-Light-System-ESP32/
-|├── code/SmartTrafficLight.ino
-|├── images/
-|│ ├── circuit_diagram.png
-|│ ├── prototype_setup.jpg
-|│ └── output_serial_log.png
-|└── README.md
+├── code/SmartTrafficLight.ino
+├── images/
+│ ├── circuit_diagram.png
+│ ├── prototype_setup.jpg
+│ └── output_serial_log.png
+└── README.md
+
+---
+
+## 🧠 Working Principle
+1. **Vehicle Detection:**  
+   Ultrasonic sensors detect when a vehicle passes the first and second sensors, calculating travel time.
+2. **Speed Evaluation:**  
+   The time difference between sensor triggers determines whether the vehicle is fast, medium, or slow.
+3. **Traffic Control:**  
+   Based on speed, LEDs switch accordingly.
+4. **Pedestrian & Emergency Override:**  
+   - Pedestrian button requests a safe crossing.
+   - Emergency switch activates a priority sequence (Red → Yellow → Green).
+
+---
+
+## 🧾 Code Overview
+The main functions:
+- `handleEmergencySequence()` – Controls emergency override sequence.
+- `controlTrafficBasedonSpeed()` – Dynamically controls lights using sensor data.
+- `measureTravelTime()` – Calculates travel time between sensors.
+- `resetAllLights()` – Turns off all LEDs.
+
+---
+
+## 🔮 Future Scope
+- Multi-lane & intersection coordination
+- Real-time IoT data monitoring
+- AI-based vehicle detection (computer vision)
+- Blockchain for secure traffic data logging
+
+---
+
+## 📸 Prototype
+*(Add your circuit and demo images here)*
+
+---
+
+## 🧑‍💻 Author
+**Yokesh Ganesh Babu**  
+B.Tech VLSI Design and Technology  
+---
+
+## 🪪 License
+This project is open-source under the MIT License.

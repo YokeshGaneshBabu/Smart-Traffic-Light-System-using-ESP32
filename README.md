@@ -30,9 +30,9 @@ A real-time smart traffic control system that dynamically manages traffic lights
 
 ## 📂 Project Structure
 Smart-Traffic-Light-System-ESP32/
-├── code/SmartTrafficLight.ino
-├── images/
-│ ├── circuit_diagram.png
-│ ├── prototype_setup.jpg
-│ └── output_serial_log.png
-└── README.md
+|├── code/SmartTrafficLight.ino
+|├── images/
+|│ ├── circuit_diagram.png
+|│ ├── prototype_setup.jpg
+|│ └── output_serial_log.png
+|└── README.md
